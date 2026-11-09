@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Downloaded data and model files, too big for git.
+# The leading slash matters. Without it, "data/" would also match src/data/
+# and silently drop our source code from commits.
+/data/
+/checkpoints/
+*.pt
+*.pth
+*.npy
+*.npz
+*.h5
+
+# Logs and experiment output
+/logs/
+/runs/
+/wandb/
+/outputs/
+slurm-*.out
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
