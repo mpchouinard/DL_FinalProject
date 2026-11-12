@@ -8,9 +8,19 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Downloaded data and model files, too big for git.
-# The leading slash matters. Without it, "data/" would also match src/data/
-# and silently drop our source code from commits.
+# Files our scripts generate. Ignored by name on purpose.
+# Do not ignore the whole data folder. Git here is case insensitive, so a
+# rule for "data/" would also match "Data/" and silently drop the paper
+# CSVs a teammate adds next.
+/data/pdb/
+/data/labels.csv
+/data/pairs.csv
+/data/*.fasta
+
+# Cached ESM-2 embeddings. Rebuild them with: python -m src.embed
+/embeddings/
+
+# Model checkpoints and arrays, too big for git.
 /checkpoints/
 *.pt
 *.pth
