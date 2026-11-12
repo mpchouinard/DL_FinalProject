@@ -17,8 +17,7 @@ venv/
 /data/pairs.csv
 /data/*.fasta
 
-# Cached ESM-2 embeddings. Rebuild them with: python -m src.embed
-/embeddings/
+
 
 # Model checkpoints and arrays, too big for git.
 /checkpoints/
