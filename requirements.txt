@@ -1,7 +1,4 @@
 numpy
 pandas
 torch
-
-# Needed later for ESM-2 embeddings, not for the data import.
-# transformers
-# fair-esm
+transformers
