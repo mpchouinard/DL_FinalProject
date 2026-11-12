@@ -24,7 +24,6 @@ venv/
 *.pt
 *.pth
 *.npy
-*.npz
 *.h5
 
 # Logs and experiment output
