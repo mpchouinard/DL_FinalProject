@@ -37,3 +37,6 @@ slurm-*.out
 .vscode/
 .idea/
 .DS_Store
+
+# Training outputs
+checkpoints/
