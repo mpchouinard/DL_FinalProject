@@ -1,5 +1,11 @@
+# Turing: install a CUDA PyTorch wheel when torch.cuda.is_available() is False
+# after pip install (see https://docs.turing.wpi.edu/software/python/).
 numpy
 pandas
 torch
 transformers
 scikit-learn
+optuna
+tqdm
+plotly
+ipywidgets
